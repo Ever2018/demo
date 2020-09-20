@@ -1,0 +1,443 @@
+{
+	"id": "132a90ba-24fe-140b-9881-88b4e476253a",
+	"name": "Demo",
+	"description": "",
+	"order": [
+		"cdb1f2ea-43c1-8402-3141-c5e8403917fd"
+	],
+	"folders": [
+		{
+			"name": "client",
+			"description": "",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"order": [
+				"72f25e66-7578-1d99-b8e2-ed92b33faa13"
+			],
+			"owner": "3149415",
+			"folders_order": [],
+			"id": "4ce20938-510e-bc83-3bdd-df1ac1fd19a2"
+		},
+		{
+			"name": "detail",
+			"description": "",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"order": [
+				"13281641-dc09-0489-0f97-24af51c24d3d"
+			],
+			"owner": "3149415",
+			"folders_order": [],
+			"id": "dde5cc69-2e72-0e2c-7fb8-a40d47b58cd4"
+		},
+		{
+			"name": "product",
+			"description": "",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"order": [
+				"e2463a16-d1c7-dc05-4983-e61a8f16f91b",
+				"06d52ff4-5f2e-85bd-8ed2-cacc1aafe572",
+				"87d31de2-f7ff-2204-164a-12525accd01e",
+				"79eab573-7a96-bc64-eb54-24a05e17531b",
+				"226d5ed4-fac5-7d53-69a6-d4dcbcefaf10"
+			],
+			"owner": "3149415",
+			"folders_order": [],
+			"id": "56201358-1411-56db-8934-0d1e95dad7de"
+		},
+		{
+			"name": "sale",
+			"description": "",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"order": [
+				"3fad037b-f86b-8611-6622-4231da2db64f",
+				"9d60d808-4c14-20c9-27b7-eaa65a7caa0c"
+			],
+			"owner": "3149415",
+			"folders_order": [],
+			"id": "14b53443-15ee-7a46-3845-d3da0bc17994"
+		}
+	],
+	"folders_order": [
+		"56201358-1411-56db-8934-0d1e95dad7de",
+		"4ce20938-510e-bc83-3bdd-df1ac1fd19a2",
+		"14b53443-15ee-7a46-3845-d3da0bc17994",
+		"dde5cc69-2e72-0e2c-7fb8-a40d47b58cd4"
+	],
+	"timestamp": 1600562907144,
+	"owner": "3149415",
+	"public": false,
+	"requests": [
+		{
+			"id": "06d52ff4-5f2e-85bd-8ed2-cacc1aafe572",
+			"headers": "Content-Type: application/json\nAuthorization: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8096/soaint/product/update",
+			"folder": "56201358-1411-56db-8934-0d1e95dad7de",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600566619648,
+			"name": "update",
+			"description": "",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": 1,\n\t\"nombre\": \"Camisa\",\n\t\"precio\": 15.000\n}"
+		},
+		{
+			"id": "13281641-dc09-0489-0f97-24af51c24d3d",
+			"headers": "Content-Type: application/json\nAuthorization: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8096//soaint/rxjava2/find/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"data": null,
+			"dataMode": "params",
+			"name": "list",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1600566708690,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "dde5cc69-2e72-0e2c-7fb8-a40d47b58cd4"
+		},
+		{
+			"id": "226d5ed4-fac5-7d53-69a6-d4dcbcefaf10",
+			"headers": "Content-Type: application/json\nAuthorization: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8096/soaint/product/delete/1",
+			"folder": "56201358-1411-56db-8934-0d1e95dad7de",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600566616796,
+			"name": "delete",
+			"description": "",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": 1,\n\t\"nombre\": \"Camisa\",\n\t\"precio\": 15.000\n}"
+		},
+		{
+			"id": "3fad037b-f86b-8611-6622-4231da2db64f",
+			"headers": "Content-Type: application/json\nAuthorization: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8096/soaint/sale/save",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600566617874,
+			"name": "save",
+			"description": "",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"responses": [],
+			"rawModeData": "{\n\t\"client\": {\n\t\t\"nombre\": \"\",\n\t\t\"apellido\": \"\",\n\t\t\"dni\": \"\",\n\t\t\"telefono\": \"\",\n\t\t\"email\": \"\"\n\t},\n\t\"fecha\": \"2019-09-14\",\n\t\"detalleVenta\": {\n\t\t\"productos\": [\n\t\t\t{\n\t\t\t\t\"id\": 1\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"id\": 2\n\t\t\t}\n\t\t]\n\t}\n}"
+		},
+		{
+			"id": "72f25e66-7578-1d99-b8e2-ed92b33faa13",
+			"headers": "Content-Type: application/json\nAuthorization: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8096/soaint/client/save",
+			"folder": "56201358-1411-56db-8934-0d1e95dad7de",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600566617385,
+			"name": "save",
+			"description": "",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"responses": [],
+			"rawModeData": "{\n\t\"nombre\": \"\",\n\t\"apellido\": \"\",\n\t\"dni\":\"\",\n\t\"telefono\":\"\",\n\t\"email\":\"\"\n}"
+		},
+		{
+			"id": "79eab573-7a96-bc64-eb54-24a05e17531b",
+			"headers": "Content-Type: application/json\nAuthorization: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8096/soaint/product/find/1",
+			"folder": "56201358-1411-56db-8934-0d1e95dad7de",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600566616296,
+			"name": "find",
+			"description": "",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": 1,\n\t\"nombre\": \"Camisa\",\n\t\"precio\": 15.000\n}"
+		},
+		{
+			"id": "87d31de2-f7ff-2204-164a-12525accd01e",
+			"headers": "Content-Type: application/json\nAuthorization: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8096/soaint/product/list",
+			"folder": "56201358-1411-56db-8934-0d1e95dad7de",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600566615837,
+			"name": "list",
+			"description": "",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": 1,\n\t\"nombre\": \"Camisa\",\n\t\"precio\": 15.000\n}"
+		},
+		{
+			"id": "9d60d808-4c14-20c9-27b7-eaa65a7caa0c",
+			"headers": "Content-Type: application/json\nAuthorization: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8096/soaint/sale/list",
+			"folder": "14b53443-15ee-7a46-3845-d3da0bc17994",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600566614757,
+			"name": "list",
+			"description": "",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"responses": [],
+			"rawModeData": "{\n\t\"client\": {\n\t\t\"nombre\": \"\",\n\t\t\"apellido\": \"\",\n\t\t\"dni\": \"\",\n\t\t\"telefono\": \"\",\n\t\t\"email\": \"\"\n\t},\n\t\"fecha\": \"2019-09-14\",\n\t\"detalleVenta\": {\n\t\t\"productos\": [\n\t\t\t{\n\t\t\t\t\"id\": 1\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"id\": 2\n\t\t\t}\n\t\t]\n\t}\n}"
+		},
+		{
+			"id": "cdb1f2ea-43c1-8402-3141-c5e8403917fd",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8096/user",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user",
+					"value": "user1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600566780865,
+			"name": "User-token",
+			"description": "",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"responses": []
+		},
+		{
+			"id": "e2463a16-d1c7-dc05-4983-e61a8f16f91b",
+			"headers": "Content-Type: application/json\nAuthorization: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8096/soaint/product/save",
+			"folder": "56201358-1411-56db-8934-0d1e95dad7de",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600566619200,
+			"name": "save",
+			"description": "",
+			"collectionId": "132a90ba-24fe-140b-9881-88b4e476253a",
+			"responses": [],
+			"rawModeData": "{\n\n   \"nombre\": \"Camisa\",\n   \"precio\": 15.000\n}"
+		}
+	]
+}

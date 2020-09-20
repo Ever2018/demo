@@ -2,7 +2,6 @@ package es.soaint.demo.controller;
 
 import es.soaint.demo.model.api.response.DetalleVentaResponse;
 import es.soaint.demo.service.DetalleVentaService;
-import io.reactivex.Observable;
 import io.reactivex.Single;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
